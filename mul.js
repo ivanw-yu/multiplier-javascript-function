@@ -33,7 +33,7 @@ function helperMul(first){
       return factors.reduce((total, curr) => total * curr);
 
     // otherwise, return another function which has another number as its arguments.
-    // and in this function, call return the result of multiplier, which checks whether
+    // and in this function, return the result of multiplier, which checks whether
     // the result should be returned or another function.
     }else{
       return function(anotherNumber){
